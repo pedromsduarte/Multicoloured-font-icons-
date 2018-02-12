@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'IconBlack';
+    src: url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/iconblack-regular-webfont.eot');
+    src: url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/iconblack-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/iconblack-regular-webfont.woff') format('woff'),
+         url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/iconblack-regular-webfont.ttf') format('truetype'),
+         url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/iconblack-regular-webfont.svg#iconblackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IconGray';
+    src: url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/icongray-regular-webfont.eot');
+    src: url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/icongray-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/icongray-regular-webfont.woff') format('woff'),
+         url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/icongray-regular-webfont.ttf') format('truetype'),
+         url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/icongray-regular-webfont.svg#icongrayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IconOrange';
+    src: url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/iconorange-regular-webfont.eot');
+    src: url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/iconorange-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/iconorange-regular-webfont.woff') format('woff'),
+         url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/iconorange-regular-webfont.ttf') format('truetype'),
+         url('http://www.pedromsduarte.com/supportfiles/multicoloured_font_icons/fonts/iconorange-regular-webfont.svg#iconorangeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	font-weight: lighter;
+	color: #999;
+}
+
+article {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	margin-top: -96px;
+}
+
+article ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+article li {
+	font-size: 8em;
+	line-height: 1em;
+	display: inline-block;
+	position: relative;
+	width: 260px;
+	cursor: pointer;
+}
+
+li span, li span:before, li span:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* watch icon */
+.icon1 span:before {
+	content: "a";
+	color: #F7931D;
+	font-family: IconOrange;
+	line-height: 162px;
+}
+
+.icon1 span {
+	color: #383739;
+	font-family: IconBlack;
+}
+
+.icon1 span:after {
+	content: "a";
+	color: #C2B49A;
+	font-family: IconGray;
+	line-height: 140px;
+}
+
+/* search icon */
+.icon2 span:before {
+	content: "b";
+	color: #F7931D;
+	font-family: IconOrange;
+	line-height: 182px;
+}
+
+.icon2 span {
+	color: #383739;
+	font-family: IconBlack;
+	line-height: 192px;
+}
+
+.icon2 span:after {
+	content: "b";
+	color: #C2B49A;
+	font-family: IconGray;
+	line-height: 226px;
+}
+
+/* graph icon */
+.icon3 span:before {
+	content: "c";
+	color: #F7931D;
+	font-family: IconOrange;
+	line-height: 170px;
+}
+
+.icon3 span {
+	color: #383739;
+	font-family: IconBlack;
+}
+
+.icon3 span:after {
+	content: "c";
+	color: #C2B49A;
+	font-family: IconGray;
+	line-height: 212px;
+}
+
+/* tooltips */
+li label
+{
+	visibility: hidden;
+	overflow: hidden;
+	height: 0;
+	position: absolute;
+	font-size: .15em;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	font-weight: lighter;
+	line-height: 22px;
+	background: #fff;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+	border-radius: 10px;
+	border: 3px solid #F7931D;
+}
+
+li:hover label
+{
+	visibility: visible;
+	height: auto;
+}
+
+/* footer */
+footer
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	line-height: 60px;
+	text-align: center;
+	font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
